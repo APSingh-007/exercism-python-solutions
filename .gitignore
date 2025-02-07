@@ -1,0 +1,7 @@
+# Ignore unnecessary directories inside each exercise folder
+**/.exercism/
+**/__pycache__/
+**/.pytest_cache/
+
+# Ignore help.md inside all exercise folders
+**/HELP.md
