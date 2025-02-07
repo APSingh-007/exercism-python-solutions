@@ -1,3 +1,6 @@
+# Ignore virtual environment
+.venv/
+
 # Ignore unnecessary directories inside each exercise folder
 **/.exercism/
 **/__pycache__/
