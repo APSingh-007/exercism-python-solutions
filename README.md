@@ -62,11 +62,11 @@ help.md
 
 ## 🏆 **Progress**
 
-This repo consistsI am continuously working on completing all exercises. Feel free to check back for updates!
+I am continuously working on completing all exercises on the python track. Check back for updates!
 
 ## 💡 **Contributing**
 
-If you have better solutions or improvements for mine, feel free to fork the repo and open a pull request. It will help me get more feedback and learn more.
+If you have better solutions or improvements for mine, please fork the repo and open a pull request. It will help me get more feedback and learn more.
 
 ## 📜 **License**
 
