@@ -6,16 +6,17 @@ This repository contains my solutions to the exercises from the  **Python track*
 
 ```
 exercism-python-solutions/
-│-- exercise-1/
+│-- exercise_name-1/
 │   ├── solution.py
-│   ├── test_solution.py
-│-- exercise-2/
+│   ├── solution_test.py
+│-- exercise_name-2/
 │   ├── solution.py
-│   ├── test_solution.py
+│   ├── solution_test.py
 │-- ...
 │-- .gitignore
+|-- requirements.txt
 │-- README.md
-```
+``` 
 
 - Each **exercise folder** contains:
     
@@ -32,15 +33,18 @@ exercism-python-solutions/
     git clone https://github.com/APSingh-007/exercism-python-solutions.git
     ```
     
-2. Create a virtual environment and install the requirements:
+2. Create and activate virtual environment and install the requirements:
     
     ```
     python3 -m venv .venv
+    source .venv/bin/activate
+    pip install -r requirements.txt
     ```
         
-3. Run tests to validate the solution:
+3. Navigate to exercise directory and run tests to validate the solution:
     
     ```
+    cd <exercise_name>
     python3 -m pytest -o markers=task' <test_solution.py>
     ```
 
@@ -49,6 +53,7 @@ exercism-python-solutions/
 This repository ignores unnecessary files and directories inside each exercise's directory using `.gitignore`, including:
 
 ```
+.venv/
 __pycache__/
 .exercism/
 .pytest_cache/
@@ -61,12 +66,8 @@ This repo consistsI am continuously working on completing all exercises. Feel fr
 
 ## 💡 **Contributing**
 
-If you have suggestions or improvements, feel free to fork the repo and open a pull request.
+If you have better solutions or improvements for mine, feel free to fork the repo and open a pull request. It will help me get more feedback and learn more.
 
 ## 📜 **License**
 
-This repository is licensed under the **MIT License**.
-
----
-
-Happy Coding! 🚀
+This repository is licensed under the **MIT License**. Feel free to use this code anywhere.
